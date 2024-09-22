@@ -1,0 +1,77 @@
+# vim: ft=gitignore :
+
+# log files, binary files directory, and Vim/NeoVim session files.
+*.log
+/bin
+Session.vim
+
+# macOS Finder directory attributes
+.DS_Store
+
+# Windows thumbnail caches
+Thumbs.db
+ehthumbs.db
+
+# Linux temporary files
+*~
+
+# binaries and executables
+/bin
+*.exe
+*.dll
+*.so
+*.dylib
+*.out
+
+# Python compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# build directories and output
+/build
+/bld
+/dist
+/dst
+/tmp
+/out
+*.o
+*.a
+*.obj
+*.lib
+*.class
+*.jar
+
+# generated documentation
+*.pdf
+*.docx
+*.html
+!README.html
+!Pandoc-User*.html
+
+# coverage reports and test results
+coverage/
+*.lcov
+*.coverage
+
+# OS-specific files
+*.bak
+*.old
+
+# version control system files (optional)
+.idea/
+.vscode/
+
+# archives
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+

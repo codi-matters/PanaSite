@@ -1,0 +1,18 @@
+TOPIC
+    about_New-PanaSite
+
+SHORT DESCRIPTION
+    Creates a new Pandoc-drive static web site directory structure.
+
+LONG DESCRIPTION
+    Creates a Pandoc-driven static website with all supported scripts.
+    The conversions are handled by PowerShell scripts, Pandoc, and some
+    Lua filters like `panda.lua`.
+
+EXAMPLES
+    Example 1:
+    PS C:\> New-PanaSite -Path "C:\MySite"
+    Creates a new Pandoc-based site at the specified path.
+
+SEE ALSO
+    Help New-PanaSite

@@ -1,0 +1,13 @@
+NAME
+    PanaSite
+
+SYNOPSIS
+    Create, maintain and publish a Pandoc-driven static website.
+
+DESCRIPTION
+    Create a Pandoc-driven static website from scratch. Conversions are
+    handled by PowerShell scripts, Pandoc, and Lua filters like `panda.lua`.
+
+NOTES
+    Author: Codi Matters
+    Requires: PowerShell 7
